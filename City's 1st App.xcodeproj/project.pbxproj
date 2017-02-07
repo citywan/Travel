@@ -81,6 +81,7 @@
 				61A9FBCB1E49E9EA008DEF52 /* City's 1st AppTests */,
 				61A9FBD61E49E9EA008DEF52 /* City's 1st AppUITests */,
 				61A9FBB51E49E9E9008DEF52 /* Products */,
+				61A9FBE51E49EB12008DEF52 /* New Group */,
 			);
 			sourceTree = "<group>";
 		};
@@ -123,6 +124,13 @@
 				61A9FBD91E49E9EA008DEF52 /* Info.plist */,
 			);
 			path = "City's 1st AppUITests";
+			sourceTree = "<group>";
+		};
+		61A9FBE51E49EB12008DEF52 /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "New Group";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -193,6 +201,7 @@
 				TargetAttributes = {
 					61A9FBB31E49E9E8008DEF52 = {
 						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = N6PHGUV7LM;
 						ProvisioningStyle = Automatic;
 					};
 					61A9FBC71E49E9EA008DEF52 = {
@@ -410,9 +419,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = N6PHGUV7LM;
 				INFOPLIST_FILE = "City's 1st App/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "City-s-1st-App.City-s-1st-App";
+				PRODUCT_BUNDLE_IDENTIFIER = "City-s-1st-App.Make-you-Cry";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -422,9 +433,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = N6PHGUV7LM;
 				INFOPLIST_FILE = "City's 1st App/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "City-s-1st-App.City-s-1st-App";
+				PRODUCT_BUNDLE_IDENTIFIER = "City-s-1st-App.Make-you-Cry";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
